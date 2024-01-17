@@ -196,6 +196,10 @@ html {
     background-color: black;
 }
 
+.bg-dark {
+    background-color: rgba(0,0,0, 0.65);
+}
+
 .light-text {
     color: rgba(255, 255, 255, 0.85);
 }
@@ -222,14 +226,13 @@ html {
     text-align: center;
 }
 
-h1 {
-    margin: 20px auto;
+.text-shadow {
+    text-shadow: 2px 2px 2px #000000;
 }
 
 ul li a {
     text-decoration: none
 }
-
 
 header {
     width: 100%;
@@ -249,6 +252,21 @@ header nav {
     width: 166px;
     margin: 10px 0px;
 } 
+#mainBanner {
+    position: relative;
+}
+
+#mainBanner img {
+    width: 100%;
+    height: auto;
+}
+
+#mainBanner h1 {
+    width: 100%;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 0px;
+}
 
 /*  Media Queries */
 
