@@ -45,7 +45,7 @@
     font-family: 'Poppins';
     src: url('./fonts/Poppins/Poppins-MediumItalic.ttf');
     font-weight: 100;
-    font-style: normal;
+    font-style: italic;
 }
 
 @font-face {
@@ -190,6 +190,19 @@ html {
     font-style: normal;
 }
 
+.font-w1 {
+    font-weight: 100;
+}
+
+.font-w2 {
+    font-weight: 200;
+}
+
+.font-w3 {
+    font-weight: 300;
+}
+
+
 /* Comenzando los estilos */
 
 .bg-black {
@@ -208,6 +221,9 @@ html {
     color: rgba(0,0,0, 0.85);
 }
 
+.d-flex {
+    display: flex;
+}
 
 .ls-none {
     list-style: none;
@@ -234,7 +250,7 @@ ul li a {
     text-decoration: none
 }
 
-header {
+header, footer {
     width: 100%;
 }
 
@@ -248,7 +264,7 @@ header nav {
     display: inline-block;
 }
 
-#logoHeader img {
+#logoHeader img, footer img {
     width: 166px;
     margin: 10px 0px;
 } 
@@ -265,7 +281,15 @@ header nav {
     width: 100%;
     padding: 10px 0px;
     position: absolute;
-    bottom: 0px;
+    bottom: 8px;
+}
+
+.p-index {
+    margin: 45px 10%;
+}
+
+footer .container div {
+    width: 25%;
 }
 
 /*  Media Queries */
