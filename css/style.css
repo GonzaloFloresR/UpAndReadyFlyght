@@ -224,11 +224,18 @@ html {
 .d-flex {
     display: flex;
 }
+.d-grid {
+    display:grid;
+}
 
 .ls-none {
     list-style: none;
     display: flex;
 }
+.col {
+    flex-direction: column;
+}
+
 
 .l-horizontal {
     align-items: center;
@@ -254,8 +261,13 @@ header, footer {
     width: 100%;
 }
 
+header {
+    border-bottom: 30px solid #242424;
+    padding: 20px 0px;
+}
+
 header nav {
-    height: 120px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -264,9 +276,9 @@ header nav {
     display: inline-block;
 }
 
-#logoHeader img, footer img {
+#logoHeader img {
     width: 166px;
-    margin: 10px 0px;
+    margin: 0px 0px;
 } 
 #mainBanner {
     position: relative;
@@ -288,8 +300,39 @@ header nav {
     margin: 45px 10%;
 }
 
-footer .container div {
-    width: 25%;
+footer {
+    border-top: 20px solid #242424;
+    padding: 20px 0px;
+}
+
+footer .container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+footer ul li p, footer ul li a {
+    line-height: 40px;
+}
+
+#logoFooter {
+    width:140px;
+    height: auto;
+}
+
+.iconFooter {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.actual {
+    color: #c8b66c;
+    opacity: 1;
+    transition: 1s opacity;
+}
+.actual:hover {
+    opacity: .7;
 }
 
 /*  Media Queries */
