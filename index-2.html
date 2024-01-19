@@ -8,52 +8,59 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-    <div class="position-relative">
-        <header class="bg-black opacity-75 position-absolute top-0 w-100 z-3">
-            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-                <div class="container">
-                    <div id="header_logo">
-                        <a class="navbar-brand opacity-100" href="#">
-                            <img src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo" title="Up & Ready Flight">
-                        </a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav fs-5">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#" title="Home Page of Up & Ready Flight">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Training</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Management</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Location</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">About Us</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">F.A.Q</a></li>
-                        </ul>
+    <header class="position-absolute">
+        <div class="position-relative">
+            <nav class="navbar navbar-expand-lg bg-dark opacity-75" data-bs-theme="dark">
+                <div id="header_logo" class="container-lg">
+                    <a class="navbar-brand opacity-100" href="#"><img src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo" title="Up & Ready Flight"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center opacity-100">
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link active" aria-current="page" href="#" title="Home Page of Up & Ready Flight">Home</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Training</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Management</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Location</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">About Us</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Contact</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">F.A.Q</a></li>
+                        </ul>    
                     </div>
                 </div>
             </nav>
-        </header>
-    </div>
-    <figure class="position-relative" id="mainVideo">
+        </div>
+
+    </header>
+    
+    <figure class="position-relative mb-0" id="mainVideo">
             <video class="w-100" src="./img/video/up&readyflight_1.mp4" autoplay loop muted poster="./img/DSC_0340.JPG"></video>
             <h1 class="position-absolute bottom-0 py-3 fs-1 text-white w-100 bg-black opacity-75 text-center fw-semibold"> L39 Aircraft Training Program</h1>
         <!-- <img src="./img/Up and Ready fleet.jpg" alt="Hemoso avión"> -->
     </figure>
     <main class="container">
-        <section class="d-flex flex-lg-nowrap align-items-center">
-            <img class="w-25 p-3 m-5 border border-dark border-5 flex-shrink-0" src="./img/Pilot-picture.png" alt="Brett Wilkdes">
-            <p class="fs-5 fw-light lh-lg text-center py-5 m-5 flex-grow-1">Up and Ready Flight Support is the worlds premiere L-39 / L-29 and Jet Unusual Attitude Training (UAT) provider. With 4 retired Naval Fighter Pilots and a FAA Designated Pilot Examiner on staff, Up and Ready can accommodate all training requirements needed at an affordable price. We offer custom training programs to suite YOUR needs based on YOUR background.</p></section>
+        <section class="d-flex">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="w-75 p-3 mx-auto d-block img-fluid my-5 border border-dark border-5" src="./img/Pilot-picture.png" alt="Brett Wilkdes">
+                </div>
+                <div class="col-lg-8">
+                    <p class="fs-5 fw-light lh-lg text-center py-5 m-5 flex-grow-1">Up and Ready Flight Support is the worlds premiere L-39 / L-29 and Jet Unusual Attitude Training (UAT) provider. With 4 retired Naval Fighter Pilots and a FAA Designated Pilot Examiner on staff, Up and Ready can accommodate all training requirements needed at an affordable price. We offer custom training programs to suite YOUR needs based on YOUR background.</p>
+                </div>
+            </div>
+            
+            
+            </section>
         <section></section>
 
     </main>
     <footer class="bg-black position-relative top-0 w-100">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3">
                     <a href="#"><img id="footerLogo" src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo"></a>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <ul class="opacity-75">
                             <li>
                                 <p class="text-white">

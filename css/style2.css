@@ -129,15 +129,13 @@ body {
 }
 
 header {
-    height: 120px;
+    width: 100%;
+    height: auto;
+    z-index: 999;
 }
 
 #header_logo img {
     width: 160px;
-}
-
-.nav-itema.nav-link, #header_logo img {
-    opacity: 1;
 }
 
 .navbar-nav .nav-link.active {
@@ -146,11 +144,6 @@ header {
     transition: 1s opacity;
 
 }
-
-.navbar-nav .nav-link.active:hover {
-    opacity: .7;
-}
-
 
 #mainVideo {
     width: 100%;
