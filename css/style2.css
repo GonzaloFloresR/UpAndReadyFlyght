@@ -131,7 +131,7 @@ body {
 header {
     width: 100%;
     height: auto;
-    z-index: 999;
+    z-index: 5;
 }
 
 #header_logo img {
@@ -142,7 +142,13 @@ header {
     color: #c8b66c;
     opacity: 1;
     transition: 1s opacity;
+}
 
+.bg-dark  {
+    --bs-bg-opacity: 0.90 !important;
+}
+.nav-item, .nav-link {
+    opacity: 90% !important;
 }
 
 #mainVideo {
@@ -170,7 +176,8 @@ footer {
 }
 
 #footerLogo {
-    height: 100px;
+    width: 164px;
+    height: auto;
     margin: 25px 0px;
     vertical-align: middle;
 }
@@ -188,4 +195,14 @@ footer div:nth-child(2) ul li p, footer ul li a {
     width: 20px;
     vertical-align: middle;
     margin-right: 10px;
+}
+
+@media (max-width: 992px) { 
+    footer ul li a {
+        display: block;
+    }
+
+    footer ul li p, footer ul li a {
+        text-align: center;
+    }
 }
