@@ -164,7 +164,6 @@ header {
     height: 100%;
 }
 
-
 #mainVideo h1 {
     margin-bottom: 0px;
 }
@@ -198,6 +197,10 @@ footer div:nth-child(2) ul li p, footer ul li a {
 }
 
 @media (max-width: 992px) { 
+    #header_logo img {
+        width: 130px;
+    }
+
     footer ul li a {
         display: block;
     }
@@ -205,4 +208,11 @@ footer div:nth-child(2) ul li p, footer ul li a {
     footer ul li p, footer ul li a {
         text-align: center;
     }
+}
+
+@media (max-width: 768px) { 
+    #header_logo img {
+        width: 110px;
+    }
+
 }
