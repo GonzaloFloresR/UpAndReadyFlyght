@@ -166,6 +166,8 @@ header {
 
 #mainVideo h1 {
     margin-bottom: 0px;
+    color: #c8b66c;
+    --bs-bg-opacity: .65;
 }
 
 footer {
@@ -214,5 +216,6 @@ footer div:nth-child(2) ul li p, footer ul li a {
     #header_logo img {
         width: 110px;
     }
+
 
 }
