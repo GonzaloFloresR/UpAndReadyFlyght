@@ -4,55 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Up & Ready Flight</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
-<body class="fsize-2 dark-text">
-    <header class="bg-black">
-        <nav class="container">
-            <div id="logoHeader">
-                <img src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo">
-            </div>
-            <ul class="ls-none l-horizontal">
-                    <li><a class="light-text actual" href="#" title="Home Page of Up & Ready Flight">Home</a></li>
-                    <li><a class="light-text" href="#" title="Home Page of Up & Ready Flight">Training</a></li>
-                    <li><a class="light-text" href="#" title="Home Page of Up & Ready Flight">Management</a></li>
-                    <li><a class="light-text" href="#" title="Home Page of Up & Ready Flight">Location</a></li>
-                    <li><a class="light-text" href="#" title="Home Page of Up & Ready Flight">About Us</a></li>
-                    <li><a class="light-text" href="#" title="Home Page of Up & Ready Flight">Contact</a></li>
-                    <li><a class="light-text" href="#" title="Home Page of Up & Ready Flight">F.A.Q</a></li>
-            </ul>
-            
-        </nav>
+<body>
+    <header class="position-absolute">
+        <div class="position-relative">
+            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+                <div id="header_logo" class="container-lg">
+                    <a class="navbar-brand" href="#"><img src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo" title="Up & Ready Flight"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10">
+                                <a class="nav-link active" aria-current="page" href="#" title="Home Page of Up & Ready Flight">Home</a></li>
+                            <li class="nav-item dropdown border-bottom border-warning border-1 border-opacity-10 ">
+                                <a class="nav-link dropdown-toggle" href="#" title="Training Page of Up & Ready Flight" role="button" data-bs-toggle="dropdown" aria-expanded="false">Training</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">L-39</a></li>
+                                    <li><a class="dropdown-item" href="#">L-29</a></li>
+                                    <li><a class="dropdown-item" href="#">UPRT</a></li>
+                                    <li><a class="dropdown-item" href="#">Recurrent / 61.58</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown border-bottom border-warning border-1 border-opacity-10 ">
+                                <a class="nav-link dropdown-toggle" href="#" title="Training Page of Up & Ready Flight" role="button" data-bs-toggle="dropdown" aria-expanded="false">Management</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Corporate Aircraft</a></li>
+                                    <li><a class="dropdown-item" href="#">Aircraft Acquisition</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown border-bottom border-warning border-1 border-opacity-10 ">
+                                <a class="nav-link dropdown-toggle" href="#" title="Training Page of Up & Ready Flight" role="button" data-bs-toggle="dropdown" aria-expanded="false">Locations</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Norfolk</a></li>
+                                    <li><a class="dropdown-item" href="#">Atlanta</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown border-bottom border-warning border-1 border-opacity-10 ">
+                                <a class="nav-link dropdown-toggle" href="#" title="Training Page of Up & Ready Flight" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Team</a></li>
+                                    <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">Contact</a></li>
+                            <li class="nav-item border-bottom border-warning border-1 border-opacity-10"><a class="nav-link" href="#" title="Home Page of Up & Ready Flight">F.A.Q</a></li>
+                        </ul>    
+                    </div>
+                </div>
+            </nav>
+        </div>
+
     </header>
-    <figure id="mainBanner">
-            <img src="./img/Up and Ready fleet.jpg" alt="Hemoso avión">
-            <h1 class="font-t2 fsize-7 light-text bg-dark text-center"> L39 Aircraft Training Program</h1>
+    
+    <figure class="position-relative mb-0" id="mainVideo">
+            <video class="w-100" src="./img/video/up&readyflight_1.mp4" autoplay loop muted poster="./img/DSC_0360.png"></video>
+            <h1 class="position-absolute bottom-0 py-3 fs-1 w-100 bg-black text-center fw-semibold"> L39 Aircraft Training Program</h1>
+        <!-- <img src="./img/Up and Ready fleet.jpg" alt="Hemoso avión"> -->
     </figure>
     <main class="container">
-        <section><p class="p-index fsize-2 font-w3 text-just">Up and Ready Flight Support is the worlds premiere L-39 / L-29 and Jet Unusual Attitude Training (UAT) provider. With 4 retired Naval Fighter Pilots and a FAA Designated Pilot Examiner on staff, Up and Ready can accommodate all training requirements needed at an affordable price. We offer custom training programs to suite YOUR needs based on YOUR background.</p></section>
+        <section class="d-flex">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="w-75 p-3 mx-auto d-block img-fluid my-5 border border-dark border-5" src="./img/Pilot-picture.png" alt="Brett Wilkdes">
+                </div>
+                <div class="col-lg-8">
+                    <p class="fs-5 fw-light lh-lg text-center py-5 m-5 flex-grow-1">Up and Ready Flight Support is the worlds premiere L-39 / L-29 and Jet Unusual Attitude Training (UAT) provider. With 4 retired Naval Fighter Pilots and a FAA Designated Pilot Examiner on staff, Up and Ready can accommodate all training requirements needed at an affordable price. We offer custom training programs to suite YOUR needs based on YOUR background.</p>
+                </div>
+            </div>
+            
+            
+            </section>
         <section></section>
 
     </main>
-    <footer class="bg-black light-text fsize-1">
-        <div class="container d-grid">
-            <div>
-                <a href="#"><img id="logoFooter" src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo"></a>
-            </div>
-            <div>
-                <ul class="ls-none col">
-                    <li><p><img class="iconFooter" src="./img/icons/telefono.svg" alt="Icon Imnage">757-618-3226</p></li>
-                    <li><p><img class="iconFooter" src="./img/icons/marcador.svg" alt="Icon Imnage"> Ejecutivo de Hampton Roads (KPVG) Chesapeake VA</p></li>
-                    <li><p><img class="iconFooter" src="./img/icons/marcador.svg" alt="Icon Imnage"> Newnan Coweta County Airport CCO</p></li>
-                </ul> 
-            </div>
-            <div>
-                <ul class="ls-none col">
-                    <li><a href="#" class="light-text"><img class="iconFooter" src="./img/icons/facebook.svg" alt="Icon Imnage">Facebook</a></li>
-                    <li><a href="#" class="light-text"><img class="iconFooter" src="./img/icons/instagram.svg" alt="Icon Imnage">Instagram</a></li>
-                </ul>
+    <footer class="bg-black position-relative top-0 w-100 fs-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-flex justify-content-center py-3">
+                    <a href="#"><img id="footerLogo" src="img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo"></a>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <ul class="opacity-75">
+                            <li>
+                                <p class="text-white">
+                                    
+                                    <a href="tel:757 618 3226" class="link-light text-decoration-none"><img class="iconFooter" src="./img/icons/telefono.svg" alt="Icon Imnage">757-618-3226 </a>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="text-white"><img class="iconFooter" src="./img/icons/marcador.svg" alt="Icon Imnage"> 
+                                    Ejecutivo de Hampton Roads (KPVG) Chesapeake VA
+                                </p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="text-white"><img class="iconFooter" src="./img/icons/marcador.svg" alt="Icon Imnage"> 
+                                Newnan Coweta County Airport CCO
+                                </p>
+                            </li>
+                    </ul> 
+                </div>
+                <div class="col-lg-3 py-3">
+                    <ul>
+                        <li>
+                            <a href="#" class="link-light text-decoration-none opacity-75">
+                                <img class="iconFooter" src="./img/icons/facebook.svg" alt="Icon Imnage">Facebook</a></li>
+                        <li>
+                            <a href="http://www.instagram.com/stavridespeter/" class="link-light text-decoration-none opacity-75">
+                                <img class="iconFooter" src="./img/icons/instagram.svg" alt="Icon Imnage">Instagram</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/main.js" ></script>
 </body>
 </html>
