@@ -214,6 +214,7 @@ footer div:nth-child(2) ul li p, footer ul li a {
     footer ul li p, footer ul li a {
         text-align: center;
     }
+
 }
 
 @media (max-width: 768px) { 
