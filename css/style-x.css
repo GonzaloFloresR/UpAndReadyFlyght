@@ -1,0 +1,386 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-ThinItalic.ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-MediumItalic.ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-LightItalic.ttf ');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Italic.ttf ');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-ExtraLightItalic.ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-ExtraBoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-BlackItalic.ttf');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fsize-1 {
+    font-size:1.5rem;
+}
+
+.fsize-2 {
+    font-size:2rem;
+}
+
+.fsize-3 {
+    font-size:2.5rem;
+}
+
+.fsize-4 {
+    font-size:3rem;
+}
+
+.fsize-5 {
+    font-size:3.5rem;
+}
+
+.fsize-6 {
+    font-size:4rem;
+}
+
+.fsize-7 {
+    font-size:4.5rem;
+}
+
+.fsize-8 {
+    font-size:5rem;
+}
+
+.font-t1 {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.font-t2 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font-t3 {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-t4 {
+    font-weight: 800;
+    font-style: normal;
+}
+
+.font-w1 {
+    font-weight: 100;
+}
+
+.font-w2 {
+    font-weight: 200;
+}
+
+.font-w3 {
+    font-weight: 300;
+}
+
+
+/* Comenzando los estilos */
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-dark {
+    background-color: rgba(0,0,0, 0.65);
+}
+
+.light-text {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-text {
+    color: rgba(0,0,0, 0.85);
+}
+
+.d-flex {
+    display: flex;
+}
+.d-grid {
+    display:grid;
+}
+
+.ls-none {
+    list-style: none;
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+
+
+.l-horizontal {
+    align-items: center;
+}
+
+.l-horizontal li {
+    margin: 0px 10px;
+} 
+
+.text-center {
+    text-align: center;
+}
+
+.text-just {
+    text-align: justify;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+ul li a {
+    text-decoration: none
+}
+
+header, footer {
+    width: 100%;
+}
+
+header {
+    border-bottom: 30px solid #242424;
+    padding: 20px 0px;
+}
+
+header nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoHeader {
+    display: inline-block;
+}
+
+#logoHeader img {
+    width: 166px;
+    margin: 0px 0px;
+} 
+#mainBanner {
+    position: relative;
+}
+
+#mainBanner img {
+    width: 100%;
+    height: auto;
+}
+
+#mainBanner h1 {
+    width: 100%;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 8px;
+}
+
+.p-index {
+    margin: 45px 10%;
+}
+
+footer {
+    border-top: 20px solid #242424;
+    padding: 20px 0px;
+}
+
+footer .container {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+footer ul li p, footer ul li a {
+    line-height: 40px;
+}
+
+#logoFooter {
+    width:140px;
+    height: auto;
+}
+
+.iconFooter {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.actual {
+    color: #c8b66c;
+    opacity: 1;
+    transition: 1s opacity;
+}
+.actual:hover {
+    opacity: .7;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+/*  Media Queries */
+
+
+@media (min-width: 576px) { 
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+
+@media (min-width: 768px) { 
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    .container {
+        width: 960px;
+        margin: 0px auto;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    .container {
+        width: 1140px;
+        margin: 0px auto;
+    }
+}
+
+
+@media (min-width: 1400px) { 
+    .container {
+        width: 1320px;
+        margin: 0px auto;
+    }
+
+}

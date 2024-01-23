@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Poppins';
     src: url('./fonts/Poppins/Poppins-ThinItalic.ttf');
@@ -125,201 +124,76 @@
     font-style: normal;
 }
 
-* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-
-html {
-	font-size: 62.5%;
-    font-family: 'Poppins', sans-serif;
-}
-
-.fsize-1 {
-    font-size:1.5rem;
-}
-
-.fsize-2 {
-    font-size:2rem;
-}
-
-.fsize-3 {
-    font-size:2.5rem;
-}
-
-.fsize-4 {
-    font-size:3rem;
-}
-
-.fsize-5 {
-    font-size:3.5rem;
-}
-
-.fsize-6 {
-    font-size:4rem;
-}
-
-.fsize-7 {
-    font-size:4.5rem;
-}
-
-.fsize-8 {
-    font-size:5rem;
-}
-
-.font-t1 {
-    font-weight: 500;
-    font-style: normal;
-}
-
-.font-t2 {
-    font-weight: 600;
-    font-style: normal;
-}
-
-.font-t3 {
-    font-weight: 700;
-    font-style: normal;
-}
-
-.font-t4 {
-    font-weight: 800;
-    font-style: normal;
-}
-
-.font-w1 {
-    font-weight: 100;
-}
-
-.font-w2 {
-    font-weight: 200;
-}
-
-.font-w3 {
-    font-weight: 300;
-}
-
-
-/* Comenzando los estilos */
-
-.bg-black {
-    background-color: black;
-}
-
-.bg-dark {
-    background-color: rgba(0,0,0, 0.65);
-}
-
-.light-text {
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.dark-text {
-    color: rgba(0,0,0, 0.85);
-}
-
-.d-flex {
-    display: flex;
-}
-.d-grid {
-    display:grid;
-}
-
-.ls-none {
-    list-style: none;
-    display: flex;
-}
-.col {
-    flex-direction: column;
-}
-
-
-.l-horizontal {
-    align-items: center;
-}
-
-.l-horizontal li {
-    margin: 0px 10px;
-} 
-
-.text-center {
-    text-align: center;
-}
-
-.text-just {
-    text-align: justify;
-}
-
-.text-shadow {
-    text-shadow: 2px 2px 2px #000000;
-}
-
-ul li a {
-    text-decoration: none
-}
-
-header, footer {
-    width: 100%;
+body {
+    font-family: 'Poppins', sans-serif !important;
 }
 
 header {
-    border-bottom: 30px solid #242424;
-    padding: 20px 0px;
-}
-
-header nav {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#logoHeader {
-    display: inline-block;
-}
-
-#logoHeader img {
-    width: 166px;
-    margin: 0px 0px;
-} 
-#mainBanner {
-    position: relative;
-}
-
-#mainBanner img {
     width: 100%;
     height: auto;
+    z-index: 5;
 }
 
-#mainBanner h1 {
+#header_logo img {
+    width: 160px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #c8b66c;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+.bg-dark  {
+    --bs-bg-opacity: 0.90;
+}
+.nav-item, .nav-link {
+    opacity: 90% !important;
+}
+
+#mainVideo {
     width: 100%;
-    padding: 10px 0px;
-    position: absolute;
-    bottom: 8px;
+    height: 100vh;
+    overflow: hidden;
+}
+#mainVideo video {
+    background-color: black;
+    object-position: center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
-.p-index {
-    margin: 45px 10%;
+.h1-gold {
+    margin-bottom: 0px;
+    color: #c8b66c;
+    --bs-bg-opacity: .65;
 }
 
 footer {
-    border-top: 20px solid #242424;
-    padding: 20px 0px;
-}
-
-footer .container {
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-}
-
-footer ul li p, footer ul li a {
-    line-height: 40px;
-}
-
-#logoFooter {
-    width:140px;
     height: auto;
+    overflow: hidden;
+    border-top: 20px solid rgb(38, 45, 52);
+}
+
+footer.bg-dark {
+    --bs-bg-opacity: 1 !important;
+}
+
+#footerLogo {
+    width: 164px;
+    height: auto;
+    margin: 25px 0px;
+    vertical-align: middle;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer div:nth-child(2) ul li p, footer ul li a {
+    line-height: 45px;
+    margin: 0px !important;
 }
 
 .iconFooter {
@@ -328,59 +202,24 @@ footer ul li p, footer ul li a {
     margin-right: 10px;
 }
 
-.actual {
-    color: #c8b66c;
-    opacity: 1;
-    transition: 1s opacity;
-}
-.actual:hover {
-    opacity: .7;
-}
+@media (max-width: 992px) { 
+    #header_logo img {
+        width: 130px;
+    }
 
-video {
-    width: 100%;
-    height: 100%;
-}
+    footer ul li a {
+        display: block;
+    }
 
-/*  Media Queries */
-
-
-@media (min-width: 576px) { 
-    .container {
-        width: 100%;
-        margin: 0px auto;
+    footer ul li p, footer ul li a {
+        text-align: center;
     }
 }
 
-
-@media (min-width: 768px) { 
-    .container {
-        width: 100%;
-        margin: 0px auto;
+@media (max-width: 768px) { 
+    #header_logo img {
+        width: 110px;
     }
-}
 
-
-@media (min-width: 992px) { 
-    .container {
-        width: 960px;
-        margin: 0px auto;
-    }
-}
-
-
-@media (min-width: 1200px) { 
-    .container {
-        width: 1140px;
-        margin: 0px auto;
-    }
-}
-
-
-@media (min-width: 1400px) { 
-    .container {
-        width: 1320px;
-        margin: 0px auto;
-    }
 
 }
