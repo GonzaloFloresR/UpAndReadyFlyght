@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header >
-        <div>
+    <header class="position-absolute">
+        <div class="position-relative">
             <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div id="header_logo" class="container-lg">
                     <a class="navbar-brand" href="../"><img src="../img/ur-gold-icon-1.png" alt="Up&ReadyFlight-Logo" title="Up & Ready Flight"></a>
@@ -25,18 +25,18 @@
                             <li class="nav-item dropdown border-bottom border-warning border-1 border-opacity-10 ">
                                 <a class="nav-link dropdown-toggle" href="../training/" title="Training Page of Up & Ready Flight" role="button" data-bs-toggle="dropdown" aria-expanded="false">Training</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../training/l39/">L39</a></li>
-                                    <li><a class="dropdown-item" href="../training/l29/">L29</a></li>
-                                    <li><a class="dropdown-item" href="../training/uprt/">UPRT</a></li>
-                                    <li><a class="dropdown-item" href="../training/recurrent-61_58/">Recurrent / 61.58</a></li>
+                                    <li><a class="dropdown-item py-2 fs-5 text-center border-bottom border-1" href="../training/l39/">L39</a></li>
+                                    <li><a class="dropdown-item py-2 fs-5 text-center border-bottom border-1" href="../training/l29/">L29</a></li>
+                                    <li><a class="dropdown-item py-2 fs-5 text-center border-bottom border-1" href="../training/uprt/">UPRT</a></li>
+                                    <li><a class="dropdown-item py-2 fs-5 text-center border-bottom border-1" href="../training/recurrent-61_58/">Recurrent / 61.58</a></li>
                                 </ul>
                             </li>
 
                             <li class="nav-item dropdown border-bottom border-warning border-1 border-opacity-10 ">
                                 <a class="nav-link dropdown-toggle" href="../managment/" title="Training Page of Up & Ready Flight" role="button" data-bs-toggle="dropdown" aria-expanded="false">Management</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../managment/corporate-aircraft/">Corporate Aircraft</a></li>
-                                    <li><a class="dropdown-item" href="../managment/aircraft-acquisition/">Aircraft Acquisition</a></li>
+                                    <li><a class="dropdown-item py-2 fs-5 text-center border-bottom border-1" href="../managment/corporate-aircraft/">Corporate Aircraft</a></li>
+                                    <li><a class="dropdown-item py-2 fs-5 text-center border-bottom border-1" href="../managment/aircraft-acquisition/">Aircraft Acquisition</a></li>
                                 </ul>
                             </li>
 
@@ -63,18 +63,17 @@
     </header>
 
     
-    <figure class="mb-0">
+    <figure class="position-relative mb-0 zindex-999">
         <img class="w-100" src="../img/UpandReadyfleet.jpg" alt="Two Aircraft" title="L39 & L29 Picture">
-        <div class="bottom-0 py-3 bg-dark w-100">
-            <h1 class="fs-1 text-center fw-semibold h1-gold">About Us</h1>
+        <div class="position-absolute w-100 h1-custom">
+            <h1 class="text-center fw-semibold text-white">About Us</h1>
         </div>
     </figure>
 
 
     <main class="container">
-        <section class="d-flex">
-            <div class="row">
-                <h2 class="text-center fs-2 fw-semibold my-4">Team</h2>
+        <section class="row d-flex my-3">
+            <div><h2 class="fs-2 fw-semibold text-center my-4 border-bottom border-1 border-secundary py-3 bg-light" >Team</h2>
                 <div class="col-lg-6">
                     <p class="fs-5 fw-light lh-lg">
                         Up and Ready Flight support began in 2007 as a small group of highly experienced active duty Strike Fighter Naval Aviators began mentoring and training other pilots in various aviation skill sets. Topics include areas such as air racing, high altitude jet operations, safety systems, CRM, aeronautical decision making, human factors of flight, aerodynamics, aircraft performance and maneuvering, out of control flight, type certification, and Warbird checkouts in a variety of aircraft. Our staff can provide a variety of aviation services unmatched by anyone, with Safety and Professionalism at the forefront of everything they do. Please check out theFAQpage for additional helpful information.
@@ -86,24 +85,24 @@
             </div>
         </section>
 
-        <section class="d-flex">
+        <section class="d-flex p-4">
             <div class="row">
-                <h2 class="text-center fs-2 fw-semibold my-4">Testimonials</h2>
+                <h2 class="fs-2 fw-semibold text-center my-4 border-bottom border-1 border-secundary py-3 bg-light">Testimonials</h2>
                 <div class="col-lg-3">
                     <h3 class="fs-4 fw-medium">Pete</h3>
-                    <p>Pete “Tool” Stavrides is a recently retired F/A-18 Superhornet pilot, L29/39 instructor and DPE, and works for a major US airline</p>
+                    <p>Pete “Tool” Stavrides is a recently retired F/A-18 Superhornet pilot, L29/39 instructor and DPE, and works for a major US airline.</p>
                 </div>
                 <div class="col-lg-3">
                     <h3 class="fs-4 fw-medium">Snoop</h3>
-                    <p>Micah “Snoop” Lenox is a recently retired F/A-18 Superhornet pilot, and instructs in both the L29 and L39</p>
+                    <p>Micah “Snoop” Lenox is a recently retired F/A-18 Superhornet pilot, and instructs in both the L29 and L39.</p>
                 </div>
                 <div class="col-lg-3">
                     <h3 class="fs-4 fw-medium">Brett</h3>
-                    <p>Brett Wilkes is a civilian instructor in both the L29 and L39, and works for a major US airline</p>
+                    <p>Brett Wilkes is a civilian instructor in both the L29 and L39, and works for a major US airline.</p>
                 </div>
                 <div class="col-lg-3">
                     <h3 class="fs-4 fw-medium">Other</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit provident cum. Nulla obcaecati asperiores repellendus molestiae pariatur consequatur provident fugiat explicabo deserunt minus, officiis suscipit aliquam error, vero reprehenderit, numquam velit est ullam magnam nam eaque voluptate adipisci iure accusamus!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium reprehenderit provident cum. Nulla obcaecati.</p>
                 </div>
             </div>
         </section>
