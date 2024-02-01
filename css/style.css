@@ -176,7 +176,7 @@ header {
     background-color: rgba(47,48,50,0.7);
     text-shadow: 0px 0px 5px rgb(0,0,0,0.7);
     padding: 6px 0px;
-    width: 40%;
+    width: 45%;
     border-bottom: 2px solid #000000;
     
 }
@@ -225,6 +225,10 @@ footer div:nth-child(2) ul li p, footer ul li a {
         width: 130px;
     }
 
+    .h1-custom {
+        display: none;
+    } 
+
     footer ul li a {
         display: block;
     }
@@ -240,8 +244,7 @@ footer div:nth-child(2) ul li p, footer ul li a {
         width: 110px;
     }
     .h1-custom {
-        bottom: 10%;
-        left:0%;
+        
     } 
     
     .h1-custom h1 {
