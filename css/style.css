@@ -246,6 +246,23 @@ footer div:nth-child(2) ul li p, footer ul li a {
     z-index: -1; /* Coloca el pseudo-elemento detrás del contenido principal */
 }
 
+.mapas {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.team img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px 0px 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
 @media (max-width: 992px) { 
     #header_logo img {
         width: 130px;
