@@ -267,11 +267,19 @@ footer div:nth-child(2) ul li p, footer ul li a {
     background-color: black;
 }
 
-.bg-metal {
-    background-image: url("../img/fondo-gris-metal.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+.video-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (315/560 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px; /* Espacio entre los videos */
+}
+.video-youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 94%;
+    height: 94%;
 }
 
 @media (max-width: 992px) { 
