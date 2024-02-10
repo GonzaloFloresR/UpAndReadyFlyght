@@ -259,8 +259,9 @@ footer div:nth-child(2) ul li p, footer ul li a {
     object-fit: cover;
     object-position: center;
     margin: 10px 0px 20px;
-    padding: 5px;
+    padding: 10px;
     box-shadow: 0px 0px 10px 0px black;
+    border: 5px solid black;
 }
 
 .carousel-indicators [data-bs-target] {
