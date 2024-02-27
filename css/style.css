@@ -283,6 +283,15 @@ footer div:nth-child(2) ul li p, footer ul li a {
     height: 94%;
 }
 
+.visible {
+	display:block;
+}
+
+.invisible {
+	display: none;
+}
+
+
 @media (max-width: 992px) { 
     #header_logo img {
         width: 130px;
